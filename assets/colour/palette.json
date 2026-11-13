@@ -1,0 +1,126 @@
+{
+ "colours": [
+  {
+   "name": "Paper",
+   "hex": "#F4F0DF",
+   "rgb": [
+    244,
+    240,
+    223
+   ],
+   "cmyk": [
+    0,
+    2,
+    9,
+    4
+   ],
+   "share": 34
+  },
+  {
+   "name": "Forest",
+   "hex": "#1F5A2E",
+   "rgb": [
+    31,
+    90,
+    46
+   ],
+   "cmyk": [
+    66,
+    0,
+    49,
+    65
+   ],
+   "share": 30
+  },
+  {
+   "name": "Signal",
+   "hex": "#25933E",
+   "rgb": [
+    37,
+    147,
+    62
+   ],
+   "cmyk": [
+    75,
+    0,
+    58,
+    42
+   ],
+   "share": 16
+  },
+  {
+   "name": "Mint",
+   "hex": "#DCEFDF",
+   "rgb": [
+    220,
+    239,
+    223
+   ],
+   "cmyk": [
+    8,
+    0,
+    7,
+    6
+   ],
+   "share": 12
+  },
+  {
+   "name": "Bark",
+   "hex": "#2E260F",
+   "rgb": [
+    46,
+    38,
+    15
+   ],
+   "cmyk": [
+    0,
+    17,
+    67,
+    82
+   ],
+   "share": 8
+  }
+ ],
+ "pairs": [
+  {
+   "fg": "Bark",
+   "bg": "Paper",
+   "ratio": 13.12
+  },
+  {
+   "fg": "Forest",
+   "bg": "Paper",
+   "ratio": 7.18
+  },
+  {
+   "fg": "Paper",
+   "bg": "Forest",
+   "ratio": 7.18
+  },
+  {
+   "fg": "White",
+   "bg": "Forest",
+   "ratio": 8.2
+  },
+  {
+   "fg": "White",
+   "bg": "Signal",
+   "ratio": 3.95
+  },
+  {
+   "fg": "Bark",
+   "bg": "Mint",
+   "ratio": 12.47
+  },
+  {
+   "fg": "Forest",
+   "bg": "Mint",
+   "ratio": 6.82
+  },
+  {
+   "fg": "Signal",
+   "bg": "Paper",
+   "ratio": 3.45
+  }
+ ]
+}

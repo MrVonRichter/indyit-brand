@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IndyIT Brand Guide</title>
+<meta name="description" content="Logo, colour, type and voice rules for IndyIT, with downloadable logo files and swatches.">
+<link rel="icon" href="assets/logo/svg/indyit-mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* One-theme brand reference: Paper page, Forest bands, Signal only where something can be pressed. */
+:root{
+  --paper:#F4F0DF; --forest:#1F5A2E; --signal:#25933E; --mint:#DCEFDF; --bark:#2E260F; --white:#FFFFFF;
+  --sub:#5C5442; --line:#E3DCC4; --card:#FFFFFF;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--bark);font:400 17px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+h1,h2,h3{margin:0;font-weight:600;letter-spacing:-.015em;text-wrap:balance}
+p{margin:0}
+a{color:var(--forest)}
+:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+.eyebrow{font:500 12px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--sub)}
+.mono{font-family:var(--mono)}
+/* top bar */
+.top{position:sticky;top:0;z-index:10;background:var(--paper);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:24px;min-height:68px}
+.top img{height:30px;display:block}
+.top nav{margin-left:auto;display:flex;gap:22px;flex-wrap:wrap}
+.top nav a{text-decoration:none;color:var(--bark);font-weight:500;font-size:15px}
+.top nav a:hover{color:var(--forest);text-decoration:underline;text-underline-offset:5px}
+/* hero */
+.hero{background:var(--forest);color:var(--white);padding-block:88px 96px}
+.hero .eyebrow{color:var(--mint)}
+.hero h1{font-size:clamp(40px,6vw,68px);line-height:1.05;margin:16px 0 22px}
+.hero p.lead{font-size:20px;line-height:1.55;color:var(--mint);max-width:36em}
+.hero .meta{display:flex;gap:28px;flex-wrap:wrap;margin-top:34px;font:500 13px var(--mono);letter-spacing:.06em;color:var(--mint)}
+.hero .tag{display:inline-flex;align-items:center;gap:10px;margin-top:30px;font:500 15px var(--mono);color:var(--white)}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--signal);display:inline-block}
+section.s{padding-block:88px;border-bottom:1px solid var(--line)}
+.sh{display:grid;grid-template-columns:120px 1fr;gap:24px;margin-bottom:40px}
+.sh .num{font:600 15px var(--mono);color:var(--signal);padding-top:10px}
+.sh h2{font-size:clamp(32px,4vw,44px);line-height:1.1}
+.sh p{color:var(--sub);font-size:18px;margin-top:12px;max-width:40em}
+h3{font-size:22px;margin:48px 0 16px}
+.grid{display:grid;gap:20px}
+.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px;min-width:0}
+/* logo tiles */
+.tile{border-radius:12px;border:1px solid var(--line);display:grid;place-items:center;padding:40px 32px;min-height:180px}
+.tile img{max-width:100%;height:72px;display:block}
+.tile.mk img{height:88px}
+.cap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:10px;font-size:14px;color:var(--sub)}
+.cap b{color:var(--bark);font-weight:500}
+.on-paper{background:var(--paper)} .on-white{background:var(--white)} .on-forest{background:var(--forest);border-color:var(--forest)} .on-mint{background:var(--mint)}
+/* clear space diagram */
+.space{position:relative;background:var(--white);border:1px solid var(--line);border-radius:12px;padding:56px;display:grid;place-items:center}
+.space .box{position:relative;padding:28px;outline:1.5px dashed rgba(31,90,46,.45)}
+.space img{height:84px;display:block}
+.space .x{position:absolute;font:600 12px var(--mono);color:var(--forest)}
+/* don'ts */
+.dont .tile{background:var(--white);min-height:150px;overflow:hidden}
+.dont .tile img{height:52px}
+.badge{display:inline-flex;align-items:center;gap:6px;font:600 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:#9B2C1F}
+.badge.ok{color:var(--forest)}
+/* colour */
+.sw{border-radius:12px;overflow:hidden;border:1px solid var(--line);background:var(--card);display:flex;flex-direction:column}
+.sw .chip{height:120px}
+.sw .info{padding:16px 18px 18px;display:grid;gap:4px;font-size:14px}
+.sw .info b{font-size:18px}
+.sw .vals{font:400 13px var(--mono);color:var(--sub)}
+.copy{font:500 13px var(--mono);background:none;border:1px solid var(--line);border-radius:6px;padding:6px 10px;cursor:pointer;color:var(--bark);justify-self:start;margin-top:6px}
+.copy:hover{border-color:var(--forest)}
+.bar{display:flex;height:64px;border-radius:10px;overflow:hidden;border:1px solid var(--line);margin-top:8px}
+.bar span{display:flex;align-items:flex-end;padding:8px 10px;font:500 12px var(--mono)}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:12px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+th{font:500 12px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--sub)}
+.sample{display:inline-block;padding:6px 14px;border-radius:6px;font-weight:600}
+.tbl{overflow-x:auto}
+/* type */
+.spec{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:28px}
+.spec .big{font-size:64px;line-height:1;font-weight:600;letter-spacing:-.02em}
+.spec .alpha{font-size:20px;color:var(--sub);margin-top:16px;word-break:break-word}
+.scale > div{display:grid;grid-template-columns:170px 1fr;gap:20px;align-items:baseline;padding:16px 0;border-bottom:1px solid var(--line)}
+.scale .lab{font:500 12px var(--mono);color:var(--sub);letter-spacing:.06em}
+/* voice */
+.dodont{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.say{border-radius:12px;padding:22px 24px;font-size:16px}
+.say.no{background:var(--white);border:1px solid var(--line);color:var(--sub)}
+.say.yes{background:var(--mint)}
+.say .badge{display:flex;margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chips span{font:500 13px var(--mono);padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:var(--white);text-decoration:line-through;color:var(--sub)}
+ul.rules{margin:0;padding:0;list-style:none;display:grid;gap:14px}
+ul.rules li{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start}
+ul.rules li::before{content:"";width:12px;height:12px;border-radius:50%;background:var(--signal);margin-top:7px}
+/* downloads */
+.dl{display:flex;flex-direction:column;gap:12px}
+.dl h4{margin:0;font-size:18px}
+.dl p{color:var(--sub);font-size:15px;flex:1}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 20px;border-radius:6px;background:var(--signal);color:var(--white);font:600 16px var(--sans);text-decoration:none;align-self:flex-start}
+.btn:hover{background:#1F8236}
+.btn.ghost{background:none;color:var(--forest);border:1.5px solid var(--forest)}
+footer{background:var(--bark);color:var(--paper);padding-block:48px;font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center}
+footer img{height:30px}
+.note{font-size:14px;color:var(--sub);margin-top:14px}
+@media (max-width:860px){
+  .g3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .sh{grid-template-columns:1fr;gap:6px}
+  .top nav{display:none}
+  .dodont{grid-template-columns:1fr}
+  .scale > div{grid-template-columns:1fr;gap:4px}
+}
+@media (max-width:560px){.g2,.g3{grid-template-columns:1fr}.spec .big{font-size:48px}section.s{padding-block:64px}.hero{padding-block:56px 64px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a href="#top" aria-label="IndyIT brand guide, top"><img src="assets/logo/svg/indyit-lockup.svg" alt="IndyIT"></a>
+  <nav aria-label="Sections"><a href="#logo">Logo</a><a href="#colour">Colour</a><a href="#type">Type</a><a href="#voice">Voice</a><a href="#downloads">Downloads</a></nav>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap">
+  <p class="eyebrow">IndyIT brand guide</p>
+  <h1>How IndyIT looks and sounds.</h1>
+  <p class="lead">The rules for the IndyIT logo, colours, type and voice, for anyone making something with the IndyIT name on it: Harlan, printers, web developers and sign makers. If something isn't covered here, ask before you guess.</p>
+  <p class="tag"><span class="dot"></span>Green means watched.</p>
+  <div class="meta"><span>VERSION 1.0</span><span>NOVEMBER 2026</span><span>PALETTE: FOREST + SIGNAL</span></div>
+</div></section>
+
+<!-- 01 LOGO -->
+<section class="s" id="logo"><div class="wrap">
+  <div class="sh"><span class="num">01</span><div><h2>Logo</h2><p>The lockup pairs the mark (the <i>i</i> with its green status dot) with the Indy IT wordmark. Use the files from the download pack. Never redraw or retype the logo.</p></div></div>
+
+  <h3>Versions</h3>
+  <div class="grid g2">
+    <div><div class="tile on-white"><img src="assets/logo/svg/indyit-lockup.svg" alt="IndyIT primary lockup"></div><div class="cap"><b>Primary lockup</b><span>Light backgrounds: White, Paper, Mint</span></div></div>
+    <div><div class="tile on-forest"><img src="assets/logo/svg/indyit-lockup-reversed.svg" alt="IndyIT reversed lockup"></div><div class="cap"><b>Reversed lockup</b><span>Forest and other dark backgrounds</span></div></div>
+    <div><div class="tile on-paper mk"><img src="assets/logo/svg/indyit-mark.svg" alt="IndyIT mark"></div><div class="cap"><b>Mark</b><span>Favicons, app icons, social avatars</span></div></div>
+    <div><div class="tile on-forest mk"><img src="assets/logo/svg/indyit-mark-reversed.svg" alt="IndyIT mark reversed"></div><div class="cap"><b>Mark, reversed</b><span>Small spaces on dark backgrounds</span></div></div>
+    <div><div class="tile on-white"><img src="assets/logo/svg/indyit-lockup-onecolor-bark.svg" alt="IndyIT one-colour lockup in Bark"></div><div class="cap"><b>One colour, Bark</b><span>Single-ink print, engraving, faxes</span></div></div>
+    <div><div class="tile on-forest"><img src="assets/logo/svg/indyit-lockup-onecolor-paper.svg" alt="IndyIT one-colour lockup in Paper"></div><div class="cap"><b>One colour, Paper</b><span>Embroidery, vinyl, single-colour dark</span></div></div>
+  </div>
+
+  <h3>Clear space and minimum size</h3>
+  <div class="grid g2">
+    <div class="space"><div class="box"><img src="assets/logo/svg/indyit-lockup.svg" alt="Lockup with clear space marked"><span class="x" style="top:4px;left:50%;transform:translateX(-50%)">½ mark</span><span class="x" style="left:4px;top:50%;transform:translateY(-50%) rotate(-90deg)">½</span></div></div>
+    <div class="card"><ul class="rules">
+      <li><span>Keep clear space of at least <b>half the mark's height</b> on every side. Nothing else (text, photos, edges) goes inside it.</span></li>
+      <li><span>Lockup minimum width: <b>120 px</b> on screen, <b>1 inch (25 mm)</b> in print.</span></li>
+      <li><span>Mark minimum: <b>24 px</b> on screen, <b>0.25 inch (6 mm)</b> in print. Below that, the status dot stops reading.</span></li>
+      <li><span>The mark and wordmark stay in this arrangement. Don't stack them, swap them or change the gap.</span></li>
+    </ul></div>
+  </div>
+
+  <h3>Don't</h3>
+  <div class="grid g3 dont">
+    <div><div class="tile"><img src="assets/logo/svg/indyit-lockup.svg" alt="" style="transform:scaleX(1.45)"></div><p class="cap"><span class="badge">✕ Stretch or squash</span></p></div>
+    <div><div class="tile"><img src="assets/logo/svg/indyit-lockup.svg" alt="" style="filter:hue-rotate(150deg)"></div><p class="cap"><span class="badge">✕ Recolour outside the palette</span></p></div>
+    <div><div class="tile"><img src="assets/logo/svg/indyit-lockup.svg" alt="" style="filter:drop-shadow(4px 6px 4px rgba(0,0,0,.45))"></div><p class="cap"><span class="badge">✕ Add shadows, glows or bevels</span></p></div>
+    <div><div class="tile"><img src="assets/logo/svg/indyit-lockup.svg" alt="" style="transform:rotate(-12deg)"></div><p class="cap"><span class="badge">✕ Rotate or tilt</span></p></div>
+    <div><div class="tile" style="background:var(--signal)"><img src="assets/logo/svg/indyit-lockup.svg" alt=""></div><p class="cap"><span class="badge">✕ Place on Signal or busy photos</span></p></div>
+    <div><div class="tile"><span style="font:600 40px var(--sans);letter-spacing:-.02em">IndyIT</span></div><p class="cap"><span class="badge">✕ Retype the wordmark</span></p></div>
+  </div>
+  <p class="note">Also retired: the earlier shield logo and the lowercase "indy IT" wordmark. Replace them wherever they still appear.</p>
+</div></section>
+
+<!-- 02 COLOUR -->
+<section class="s" id="colour"><div class="wrap">
+  <div class="sh"><span class="num">02</span><div><h2>Colour</h2><p>Five colours. Green does the heavy lifting: Forest for big confident areas, Signal for anything someone can press. Paper keeps it warm. Use no colours outside this set.</p></div></div>
+  <div class="grid g3" id="swatches"></div>
+
+  <h3>How much of each</h3>
+  <div class="bar" id="bar"></div>
+  <p class="note">A typical page or document: mostly Paper and Forest, Signal for calls to action, Mint for highlight bands, Bark for text.</p>
+
+  <h3>Text and background pairs</h3>
+  <div class="tbl"><table id="pairs"><thead><tr><th>Sample</th><th>Text on background</th><th>Contrast</th><th>Use for</th></tr></thead><tbody></tbody></table></div>
+  <p class="note">Contrast is measured against the WCAG accessibility standard: 4.5:1 for body text, 3:1 for large text (24 px and up, or 19 px bold). CMYK values are starting points. Proof before any print run.</p>
+</div></section>
+
+<!-- 03 TYPE -->
+<section class="s" id="type"><div class="wrap">
+  <div class="sh"><span class="num">03</span><div><h2>Type</h2><p>One family, two cuts. IBM Plex Sans for everything people read; IBM Plex Mono for labels, phone numbers and figures. Both are free from Google Fonts.</p></div></div>
+  <div class="grid g2">
+    <div class="spec"><p class="eyebrow">IBM Plex Sans · 400 / 500 / 600</p><p class="big" style="margin-top:14px">Aa</p><p class="alpha">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz 0123456789</p></div>
+    <div class="spec"><p class="eyebrow">IBM Plex Mono · 400 / 500 / 600</p><p class="big mono" style="margin-top:14px">812.380.5320</p><p class="alpha mono">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>0123456789 · $ % #</p></div>
+  </div>
+  <h3>Scale</h3>
+  <div class="scale">
+    <div><span class="lab">DISPLAY · 600 · 56/60</span><span style="font-size:clamp(34px,5vw,56px);line-height:1.07;font-weight:600;letter-spacing:-.02em">IT that answers the phone.</span></div>
+    <div><span class="lab">HEADING · 600 · 40/48</span><span style="font-size:clamp(28px,4vw,40px);line-height:1.2;font-weight:600;letter-spacing:-.015em">Pick how much help you need.</span></div>
+    <div><span class="lab">SUBHEAD · 600 · 24/32</span><span style="font-size:24px;line-height:1.33;font-weight:600">We take a look</span></div>
+    <div><span class="lab">BODY · 400 · 17/27</span><span>We look after your computers, email, Wi-Fi and security, so your team can get on with their work.</span></div>
+    <div><span class="lab">SMALL · 400 · 14/20</span><span style="font-size:14px;color:var(--sub)">Monday to Friday, 8 to 5.</span></div>
+    <div><span class="lab">LABEL · MONO 500 · 12, +14%</span><span class="eyebrow" style="color:var(--bark)">MANAGED IT · INDIANAPOLIS</span></div>
+  </div>
+  <p class="note">Body text is never smaller than 16 px on screen or 9 pt in print. If Plex isn't available, fall back to the system sans-serif, never a decorative face.</p>
+</div></section>
+
+<!-- 04 VOICE -->
+<section class="s" id="voice"><div class="wrap">
+  <div class="sh"><span class="num">04</span><div><h2>Voice</h2><p>IndyIT sounds like a capable engineer who respects your time: direct, confident and approachable. Honest advice beats salesmanship every time.</p></div></div>
+  <div class="grid g2" style="align-items:start">
+    <div class="card"><h4 style="margin:0 0 14px;font-size:18px">Principles</h4><ul class="rules">
+      <li><span><b>Plain English.</b> Write for the office manager, not the IT department. Explain the outcome, then the service name.</span></li>
+      <li><span><b>"I" and "we".</b> Use "I" for Harlan's own experience, "we" for what IndyIT does.</span></li>
+      <li><span><b>Practical, not fearful.</b> No scare statistics, countdowns or "it's not if but when".</span></li>
+      <li><span><b>Only real facts.</b> No invented numbers, clients, testimonials or guarantees. Harlan's results from his role as Director of IT at Canal View are always presented as his experience before IndyIT.</span></li>
+      <li><span><b>Cost-conscious.</b> Never position IndyIT as the cheapest. Position it as the partner that won't recommend spending you don't need.</span></li>
+    </ul></div>
+    <div class="card"><h4 style="margin:0 0 6px;font-size:18px">Words we don't use</h4><p style="color:var(--sub);font-size:15px">They sound like every other IT company.</p>
+      <div class="chips"><span>solutions</span><span>leverage</span><span>cutting-edge</span><span>robust</span><span>seamless</span><span>empower</span><span>unlock</span><span>best-in-class</span><span>holistic</span><span>synergy</span><span>world-class</span><span>peace of mind</span></div>
+    </div>
+  </div>
+  <h3>Say it like this</h3>
+  <div class="grid" style="gap:16px">
+    <div class="dodont"><div class="say no"><p class="badge">✕ Instead of</p>Our targeted solutions turn everyday infrastructure into a secure, scalable asset that drives measurable ROI.</div><div class="say yes"><p class="badge ok">✓ Write</p>We look after your computers, email, Wi-Fi and security, and tell you plainly what's worth spending money on.</div></div>
+    <div class="dodont"><div class="say no"><p class="badge">✕ Instead of</p>Reach out to learn more about our offerings.</div><div class="say yes"><p class="badge ok">✓ Write</p>Call 812.380.5320. You'll talk to an engineer.</div></div>
+    <div class="dodont"><div class="say no"><p class="badge">✕ Instead of</p>Cyberattacks are on the rise. Is your business next?</div><div class="say yes"><p class="badge ok">✓ Write</p>We keep your systems patched, backed up and watched, so a bad email stays a bad email.</div></div>
+  </div>
+  <h3>Tagline</h3>
+  <div class="card" style="display:flex;align-items:center;gap:14px;flex-wrap:wrap"><span class="dot"></span><span style="font:500 24px var(--mono)">Green means watched.</span><span style="color:var(--sub);font-size:15px;margin-left:auto">Set in Plex Mono, with the Signal dot. Use it as a sign-off, not a headline.</span></div>
+</div></section>
+
+<!-- 05 DOWNLOADS -->
+<section class="s" id="downloads" style="border-bottom:0"><div class="wrap">
+  <div class="sh"><span class="num">05</span><div><h2>Downloads</h2><p>Everything a vendor needs. SVG for screens, PNG where SVG isn't accepted, and the Illustrator file for print and production.</p></div></div>
+  <div class="grid g3">
+    <div class="card dl"><h4>Logo pack</h4><p>All six versions as SVG and transparent PNG (4×), plus the Illustrator source file.</p><a class="btn" href="downloads/IndyIT-Logo-Pack.zip" download>Download .zip</a></div>
+    <div class="card dl"><h4>Colour swatches</h4><p>Adobe swatch file for Illustrator, InDesign and Photoshop, plus CSS variables for the web.</p><a class="btn" href="downloads/IndyIT-Colours.zip" download>Download .zip</a></div>
+    <div class="card dl"><h4>Fonts</h4><p>IBM Plex Sans and IBM Plex Mono. Free and open-source, from Google Fonts.</p><a class="btn ghost" href="https://fonts.google.com/?query=IBM+Plex" target="_blank" rel="noopener">Get the fonts</a></div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <img src="assets/logo/svg/indyit-lockup-reversed.svg" alt="IndyIT">
+  <span>IndyIT brand guide · Version 1.0 · November 2026 · Prepared by Von Richter Design</span>
+</div></footer>
+
+<script>
+(() => {
+  const C = [
+    {n:"Paper", h:"#F4F0DF", rgb:"244 240 223", cmyk:"0 2 9 4", share:34, use:"Main background", ink:"#2E260F"},
+    {n:"Forest", h:"#1F5A2E", rgb:"31 90 46", cmyk:"66 0 49 65", share:30, use:"Hero bands, headings, logo tile", ink:"#FFFFFF"},
+    {n:"Signal", h:"#25933E", rgb:"37 147 62", cmyk:"75 0 58 42", share:16, use:"Buttons, links to act on, the status dot", ink:"#FFFFFF"},
+    {n:"Mint", h:"#DCEFDF", rgb:"220 239 223", cmyk:"8 0 7 6", share:12, use:"Highlight bands, icon fills", ink:"#2E260F"},
+    {n:"Bark", h:"#2E260F", rgb:"46 38 15", cmyk:"0 17 67 82", share:8, use:"Text, footer", ink:"#F4F0DF"}
+  ];
+  const sw = document.getElementById("swatches"), bar = document.getElementById("bar");
+  C.forEach(c => {
+    sw.insertAdjacentHTML("beforeend", `<div class="sw"><div class="chip" style="background:${c.h}"></div><div class="info"><b>${c.n}</b><span style="color:var(--sub)">${c.use}</span><span class="vals">HEX ${c.h}<br>RGB ${c.rgb}<br>CMYK ${c.cmyk}</span><button class="copy" type="button" data-hex="${c.h}">Copy ${c.h}</button></div></div>`);
+    bar.insertAdjacentHTML("beforeend", `<span style="flex:${c.share};background:${c.h};color:${c.ink}">${c.share}%</span>`);
+  });
+  const P = [
+    ["Bark","Paper","#2E260F","#F4F0DF",13.12,"Body text, everything"],
+    ["Forest","Paper","#1F5A2E","#F4F0DF",7.18,"Headings, links"],
+    ["Paper","Forest","#F4F0DF","#1F5A2E",7.18,"Text on Forest bands"],
+    ["White","Forest","#FFFFFF","#1F5A2E",8.2,"Headlines and buttons on Forest"],
+    ["Bark","Mint","#2E260F","#DCEFDF",12.47,"Text on highlight bands"],
+    ["Forest","Mint","#1F5A2E","#DCEFDF",6.82,"Figures and labels on Mint"],
+    ["White","Signal","#FFFFFF","#25933E",3.95,"Button labels only (large, bold)"],
+    ["Signal","Paper","#25933E","#F4F0DF",3.45,"Never for text; the dot and icons only"]
+  ];
+  const tb = document.querySelector("#pairs tbody");
+  P.forEach(p => {
+    const grade = p[4] >= 7 ? "AAA" : p[4] >= 4.5 ? "AA" : p[4] >= 3 ? "Large text only" : "Fails";
+    tb.insertAdjacentHTML("beforeend", `<tr><td><span class="sample" style="color:${p[2]};background:${p[3]}">Aa 812</span></td><td>${p[0]} on ${p[1]}</td><td class="mono">${p[4].toFixed(2)}:1 · ${grade}</td><td>${p[5]}</td></tr>`);
+  });
+  document.addEventListener("click", async e => {
+    const b = e.target.closest(".copy"); if (!b) return;
+    const t = b.textContent;
+    try { await navigator.clipboard.writeText(b.dataset.hex); b.textContent = "Copied"; }
+    catch { b.textContent = b.dataset.hex; }
+    setTimeout(() => b.textContent = t, 1400);
+  });
+})();
+</script>
+</body>
+</html>

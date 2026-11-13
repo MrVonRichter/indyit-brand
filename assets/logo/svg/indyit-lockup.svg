@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308 112">
+  <defs>
+    <clipPath id="clippath">
+      <rect x="16.44" y="155.97" width="80" height="80" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect x="16.44" y="155.97" width="80" height="80" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect x="16.44" y="155.97" width="80.01" height="80.01" rx="17.5" ry="17.5" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect x="-32" y="85" width="176.62" height="176.62" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect x="-32" y="85" width="176.62" height="176.62" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect x="16.44" y="15.97" width="80" height="80" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect x="16.44" y="15.97" width="80" height="80" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect x="16.44" y="15.97" width="80.01" height="80.01" rx="17.5" ry="17.5" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect x="16.44" y="15.97" width="80.01" height="80.01" rx="17.5" ry="17.5" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect x="16.44" y="15.97" width="80.01" height="80.01" rx="17.5" ry="17.5" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <rect x="-32" y="-55" width="176.62" height="176.62" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect x="-32" y="-55" width="176.62" height="176.62" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <rect x="16.44" y="15.97" width="80.01" height="80.01" rx="17.5" ry="17.5" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <rect x="16.44" y="15.97" width="80.01" height="80.01" rx="17.5" ry="17.5" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <rect x="36.37" y="13.36" width="40" height="40" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect x="36.37" y="13.36" width="40" height="40" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <rect x="16.44" y="15.97" width="80.01" height="80.01" rx="17.5" ry="17.5" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <rect x="16.44" y="15.97" width="80.01" height="80.01" rx="17.5" ry="17.5" style="fill: none;"/>
+    </clipPath>
+  </defs>
+  <g id="IndyIT_Lockup_-_Primary" data-name="IndyIT Lockup - Primary">
+    <g id="Updated_Mark-2" data-name="Updated Mark">
+      <g style="clip-path: url(#clippath-5);">
+        <g style="clip-path: url(#clippath-6);">
+          <g>
+            <g style="clip-path: url(#clippath-7);">
+              <path d="M33.94,15.97h45c9.67,0,17.51,7.83,17.51,17.5v45c0,9.67-7.84,17.51-17.51,17.51h-45c-9.66,0-17.5-7.84-17.5-17.51v-45C16.44,23.8,24.27,15.97,33.94,15.97" style="fill: #1f5a2e;"/>
+            </g>
+            <g style="clip-path: url(#clippath-8);">
+              <path d="M56.44,85.67H56.44c-3.1,0-5.62-2.51-5.62-5.61v-25.7c0-3.11,2.52-5.62,5.62-5.62s5.61,2.51,5.61,5.62v25.7C62.05,83.16,59.54,85.67,56.44,85.67" style="fill: #f4f0df;"/>
+            </g>
+            <g style="clip-path: url(#clippath-12);">
+              <path d="M56.44,26.27c3.97,0,7.18,3.22,7.18,7.19s-3.21,7.19-7.18,7.19-7.19-3.23-7.19-7.19S52.47,26.27,56.44,26.27" style="fill: #25933e;"/>
+            </g>
+            <g style="clip-path: url(#clippath-16);">
+              <path d="M56.44,26.27c3.97,0,7.18,3.22,7.18,7.19s-3.21,7.19-7.18,7.19-7.19-3.23-7.19-7.19S52.47,26.27,56.44,26.27" style="fill: #25933e;"/>
+            </g>
+            <g style="clip-path: url(#clippath-17);">
+              <path d="M56.44,26.27c3.97,0,7.18,3.22,7.18,7.19s-3.21,7.19-7.18,7.19-7.19-3.23-7.19-7.19S52.47,26.27,56.44,26.27" style="fill: #25933e;"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path d="M126.4,77.2v-29.15c0-1.67,1.11-2.85,2.64-2.85s2.65,1.18,2.65,2.85v3.13h.14c1.87-3.61,5.49-5.98,10.71-5.98,7.44,0,11.69,4.8,11.69,12.45v19.55c0,1.81-1.19,2.99-2.86,2.99s-2.85-1.25-2.85-2.99v-18.5c0-5.5-2.57-8.49-7.79-8.49s-8.83,3.76-8.83,9.53v17.46c0,1.81-1.19,2.99-2.86,2.99s-2.85-1.25-2.85-2.99H126.4ZM187.62,32.05c-1.67,0-2.85,1.19-2.85,3v16.13h-.14c-2.02-3.68-2.3-6.05-10.79-6.05s-14.33,6.96-14.33,17.53l.07-.14c0,10.65,5.85,17.53,14.47,17.53,5.29,0,8.77-2.57,10.65-6.6h.07v3.89c0,1.67,1.25,2.78,2.92,2.78s2.78-1.18,2.78-2.78v-42.29C190.47,33.31,189.29,32.05,187.62,32.05ZM175.03,75.18c-5.99,0-9.74-4.87-9.74-12.52s3.89-12.52,9.74-12.52,9.74,4.94,9.74,12.52S181.01,75.18,175.03,75.18ZM197.7,89.45c0-1.26.84-2.09,2.3-2.09h1.95c2.15,0,4.17-1.32,5.56-5.43l.77-2.36-11.62-30.33c-.21-.56-.28-1.05-.28-1.53,0-1.53,1.19-2.58,2.85-2.58s2.16.56,2.72,2.09l9.32,26.64h.07l9.39-26.64c.49-1.53,1.25-2.09,2.64-2.09s2.79,1.05,2.79,2.58-.07.97-.28,1.53l-12.52,32.69c-2.93,7.79-5.71,10.3-11.27,10.3s-4.25-.98-4.25-2.78H197.7ZM244.17,77.06v-41.81c0-1.87,1.12-2.99,2.93-2.99s2.92,1.19,2.92,2.99v41.81c0,1.88-1.12,2.99-2.92,2.99C245.29,80.05,244.17,78.87,244.17,77.06ZM271.03,37.97h-12.53c-1.67,0-2.78-1.05-2.78-2.65s1.11-2.64,2.78-2.64h30.82c1.67,0,2.78,1.04,2.78,2.64s-1.11,2.65-2.78,2.65h-12.52v39.09c0,1.88-1.11,2.99-2.92,2.99s-2.92-1.18-2.92-2.99L271.03,37.97ZM114.92,77.06v-41.81c0-1.88,1.11-2.99,2.92-2.99s2.93,1.18,2.93,2.99v41.81c0,1.87-1.12,2.99-2.93,2.99S114.92,78.86,114.92,77.06Z" style="fill: #2e260f;"/>
+  </g>
+</svg>

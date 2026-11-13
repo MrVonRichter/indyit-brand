@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 112 112">
+  <defs>
+    <clipPath id="clippath">
+      <rect x="16.44" y="155.97" width="80" height="80" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect x="16.44" y="155.97" width="80" height="80" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect x="16.44" y="155.97" width="80.01" height="80.01" rx="17.5" ry="17.5" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect x="-32" y="85" width="176.62" height="176.62" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect x="-32" y="85" width="176.62" height="176.62" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect x="16.44" y="15.97" width="80" height="80" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect x="16.44" y="15.97" width="80" height="80" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect x="16.44" y="15.97" width="80.01" height="80.01" rx="17.5" ry="17.5" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect x="16.44" y="15.97" width="80.01" height="80.01" rx="17.5" ry="17.5" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect x="16.44" y="15.97" width="80.01" height="80.01" rx="17.5" ry="17.5" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <rect x="-32" y="-55" width="176.62" height="176.62" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect x="-32" y="-55" width="176.62" height="176.62" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <rect x="16.44" y="15.97" width="80.01" height="80.01" rx="17.5" ry="17.5" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <rect x="16.44" y="15.97" width="80.01" height="80.01" rx="17.5" ry="17.5" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <rect x="36.37" y="13.36" width="40" height="40" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect x="36.37" y="13.36" width="40" height="40" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <rect x="16.44" y="15.97" width="80.01" height="80.01" rx="17.5" ry="17.5" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <rect x="16.44" y="15.97" width="80.01" height="80.01" rx="17.5" ry="17.5" style="fill: none;"/>
+    </clipPath>
+  </defs>
+  <g id="IndyIT_Mark_-_Reversed" data-name="IndyIT Mark - Reversed">
+    <g id="Updated_Mark-2" data-name="Updated Mark">
+      <g style="clip-path: url(#clippath-5);">
+        <g style="clip-path: url(#clippath-6);">
+          <g>
+            <g style="clip-path: url(#clippath-7);">
+              <path d="M33.94,15.97h45c9.67,0,17.51,7.83,17.51,17.5v45c0,9.67-7.84,17.51-17.51,17.51h-45c-9.66,0-17.5-7.84-17.5-17.51v-45C16.44,23.8,24.27,15.97,33.94,15.97" style="fill: #f4f0df;"/>
+            </g>
+            <g style="clip-path: url(#clippath-8);">
+              <path d="M56.44,85.67H56.44c-3.1,0-5.62-2.51-5.62-5.61v-25.7c0-3.11,2.52-5.62,5.62-5.62s5.61,2.51,5.61,5.62v25.7C62.05,83.16,59.54,85.67,56.44,85.67" style="fill: #1f5a2e;"/>
+            </g>
+            <g style="clip-path: url(#clippath-12);">
+              <path d="M56.44,26.27c3.97,0,7.18,3.22,7.18,7.19s-3.21,7.19-7.18,7.19-7.19-3.23-7.19-7.19S52.47,26.27,56.44,26.27" style="fill: #25933e;"/>
+            </g>
+            <g style="clip-path: url(#clippath-16);">
+              <path d="M56.44,26.27c3.97,0,7.18,3.22,7.18,7.19s-3.21,7.19-7.18,7.19-7.19-3.23-7.19-7.19S52.47,26.27,56.44,26.27" style="fill: #25933e;"/>
+            </g>
+            <g style="clip-path: url(#clippath-17);">
+              <path d="M56.44,26.27c3.97,0,7.18,3.22,7.18,7.19s-3.21,7.19-7.18,7.19-7.19-3.23-7.19-7.19S52.47,26.27,56.44,26.27" style="fill: #25933e;"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
